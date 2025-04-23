@@ -41,24 +41,6 @@ $(document).ready(function () {
     
     
     
-    /*=====================================
-    Start Testimonials
-    =====================================*/
-    
-	$(".testimonials #owl-testimonials").owlCarousel({
-
-		autoPlay: 4000, //Set AutoPlay to 3 seconds
-		items: 1,
-        itemsDesktop: [1199, 1],
-        itemsDesktopSmall: [979, 1]
-
-	});
-
-	/*=====================================
-    End Testimonials
-    =====================================*/
-    
-    
     
     /*=====================================
     Smooth Scroll
@@ -104,24 +86,6 @@ $(document).ready(function () {
     End Scroll top 
     =====================================*/
     
-    
-    
-    /*=====================================
-    Start Loading
-    =====================================*/
-
-    $(window).on('load', function () {
-
-        $('.loading .sk-cube-grid').fadeOut(3000, function () {
-
-            $(this).parent().fadeOut(1000);
-
-        });
-    });
-
-    /*=====================================
-    End Loading
-    =====================================*/
     
       
 });
