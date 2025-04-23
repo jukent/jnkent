@@ -52,35 +52,6 @@
     =================================*/
     
     
-    
-    /*=================================
-    Start Team
-    =================================*/
-    
-    .team .personal .social-personal {
-        top: 5px;
-    }
-    
-    .team .personal .social-personal .icon-social {
-        margin-bottom: 15px;
-        width: 40px;
-        height: 40px;
-    }
-    
-    .team .personal .social-personal .icon-social i {
-        line-height: 40px;
-    }
-    
-    
-    .blog .article .info-article h4 {
-        font-size: 13px;
-    }
-    /*=================================
-    End Team
-    =================================*/
-    
-    
-    
 }
 
 
@@ -117,33 +88,6 @@
     
     /*=================================
     End Services 
-    =================================*/
-    
-    
-    
-    
-    
-    /*=================================
-    Start Testimonials
-    =================================*/
-    
-    .testimonials .heading-section h2,
-    .testimonials .heading-section span {
-        font-size: 29px;
-    }
-    
-    .testimonials .heading-section span,
-    .contact .heading-section span {
-        top: -23px;
-    }
-    
-    .testimonials .heading-section:hover span,
-    .contact .heading-section:hover span {
-        top: -15px;
-    }
-    
-    /*=================================
-    End Testimonials
     =================================*/
     
     
@@ -368,44 +312,7 @@
     /*=================================
     End Features
     =================================*/
-    
-    
-    
-    
-    /*=================================
-    Start Pricing
-    =================================*/
-    
-    .pricing .price {
-        margin-bottom: 40px;
-    }
-    
-    .pricing .price:hover {
-        -webkit-transform: scale(1.02);
-        -moz-transform: scale(1.02);
-        -o-transform: scale(1.02);
-        -ms-transform: scale(1.02);
-        transform: scale(1.02);
-    }
 
-    /*=================================
-    End Pricing
-    =================================*/
-    
-    
-    
-    
-    /*=================================
-    Start Team
-    =================================*/
-    
-    .team .personal {
-        margin-bottom: 40px;
-    }
-    
-    /*=================================
-    End Team
-    =================================*/
     
     
     
@@ -422,14 +329,6 @@
     End Blog
     =================================*/
     
-    
-    
-    .services .overlay-services, 
-    .features .overlay-features,
-    .team .overlay-team,
-    .testimonials .overlay-testimonials {
-        padding: 80px 0;
-    }
     
     .last-child {
         margin-bottom: 0 !important;
@@ -565,35 +464,6 @@
     
     
     
-    /*=================================
-    Start Pricing
-    =================================*/
-    
-    .pricing .price {
-        margin-bottom: 40px;
-    }
-
-    /*=================================
-    End Pricing
-    =================================*/
-    
-    
-    
-    
-    /*=================================
-    Start Team
-    =================================*/
-    
-    .team .personal {
-        margin-bottom: 40px;
-    }
-    
-    /*=================================
-    End Team
-    =================================*/
-    
-    
-    
     
     /*=================================
     Start Blog
@@ -695,24 +565,6 @@
     
     /*=================================
     End Features
-    =================================*/
-    
-    
-    
-    /*=================================
-    Start Team
-    =================================*/
-    
-    .team .personal .social-personal {
-        top: 10px;
-    }
-    
-    .team .personal .social-personal .icon-social {
-        margin-bottom: 15px;
-    }
-    
-    /*=================================
-    End Team
     =================================*/
     
 }
