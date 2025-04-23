@@ -53,6 +53,7 @@ a , a:hover , a:focus {
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
 	margin: 0;
 	padding: 0;
+    font-family: 'Playfair Display'
 }
 
 i, span, a, input, button, img, div, h3{
@@ -75,7 +76,7 @@ p {
 }
 
 ::selection {
-    background-color: #fc466b;
+    background-color: #0a1964;
     color: #fff;
 }
 
@@ -100,7 +101,7 @@ End Global
 
 .parallax .overlay-parallax {
     position: absolute;
-    background: linear-gradient(to right, rgba(252, 70, 107, .7), rgba(63, 94, 251, .7));
+    background: linear-gradient(to right, rgba(10, 25, 100, 0.7), rgba(0, 128, 100, 0.7));
     width: 100%;
     height: 100%;
 }
@@ -157,11 +158,11 @@ End Global
 .parallax .header .navbar-default .navbar-nav>.active>a,
 .parallax .header .navbar-default .navbar-nav>.active>a:focus,
 .parallax .header .navbar-default .navbar-nav>.active>a:hover {
-    color: #fc466b;
+    color: #0a1964;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-    color: #fc466b !important;
+    color: #0a1964 !important;
 }
 
 .parallax .slider {
@@ -260,7 +261,7 @@ End Global
 
 .parallax .slider h1 span {
     background-color: #fff;
-    color: #fc466b;
+    color: #0a1964;
     padding: 0 12px;
     border-radius: 3px;
     box-shadow: 0 0 0 0;
@@ -299,7 +300,7 @@ End Global
     font-weight: 400;
     font-size: 17px;
     letter-spacing: 2px;
-    color: #fc466b;
+    color: #0a1964;
     position: relative;
     text-transform: uppercase;
     z-index: 1;
@@ -346,7 +347,7 @@ End Global
     position: absolute;
     top: 0;
     left: 0;
-    background: linear-gradient(to left, #fc466b, #3f5efb);
+    background: linear-gradient(to left, #0a1964, #008064);
     width: 0;
     height: 100%;
     z-index: -1;
@@ -382,7 +383,7 @@ End Global
 .triangle-bottom img {
     position: absolute;
     top: 25px;
-    left: -15px;
+    left: -25px;
 }
 
 .triangle-top {
@@ -435,6 +436,7 @@ End Parallax
     left: 10px;
     letter-spacing: 3px;
     z-index: 0;
+    font-family: 'Playfair Display'
 }
 
 .heading-section:hover span{
@@ -455,7 +457,7 @@ End Parallax
 .heading-section .border-heading {
     width: 50px;
     height: 5px;
-    background: linear-gradient(to left, #fc466b, #3f5efb);
+    background: linear-gradient(to left, #0a1964, #008064);
     margin-top: 18px;
     position: relative;
     
@@ -471,7 +473,7 @@ End Parallax
 }
 
 .heading-section .border-heading i {
-    color: #fc466b;
+    color: #0a1964;
     font-size: 30px;
     position: absolute;
     right: -4px;
@@ -506,7 +508,7 @@ End Parallax
     width: 150px;
     height: 150px;
     text-align: center;
-    border: 1px solid #fc466b;
+    border: 1px solid #0a1964;
     position: relative;
 }
 
@@ -546,7 +548,7 @@ End Parallax
 
 .about .info-about .icon i {
     font-size: 90px;
-    color: #fc466b;
+    color: #0a1964;
     line-height: 150px;
 }
 
@@ -607,7 +609,7 @@ End About
 }
 
 .services .overlay-services {
-    background: linear-gradient(to right, rgba(252, 70, 107, .7), rgba(63, 94, 251, .7));
+    background: linear-gradient(to right, rgba(10, 25, 100, 0.7), rgba(0, 128, 100, 0.7));
     width: 100%;
     height: 100%;
     padding: 100px 0;
@@ -625,7 +627,7 @@ End About
 
 .services .service .icon-service {
     float: left;
-    border: 1px solid #fc466b;
+    border: 1px solid #0a1964;
     width: 70px;
     height: 50px;
     text-align: center;
@@ -668,7 +670,7 @@ End About
 
 .services .service .icon-service i {
     font-size: 30px;
-    color: #fc466b;
+    color: #0a1964;
     line-height: 48px;
 }
 
@@ -680,7 +682,7 @@ End About
 
 .services .service .info-service h3 {
     font-size: 25px;
-    color: #fc466b;
+    color: #0a1964;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-top: -5px;
@@ -697,7 +699,7 @@ End About
     margin: auto;
     height: 1px;
     width: 0;
-    background: linear-gradient(to right, #fc466b, #3f5efb);
+    background: linear-gradient(to right, #0a1964, #008064);
     
     -webkit-transition: all .4s ease;
     -moz-transition: all .4s ease;
@@ -766,7 +768,7 @@ End Services
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(to bottom, rgba(252, 70, 107, .7), rgba(63, 94, 251, .7));
+    background: linear-gradient(to right, rgba(10, 25, 100, 0.7), rgba(0, 128, 100, 0.7));
     
     -webkit-transform: scale(0);
     -moz-transform: scale(0);
@@ -864,7 +866,7 @@ End Portfolio
 }
 
 .features .overlay-features {
-    background: linear-gradient(to right, rgba(252, 70, 107, .7), rgba(63, 94, 251, .7));
+    background: linear-gradient(to right, rgba(10, 25, 100, 0.7), rgba(0, 128, 100, 0.7));
     width: 100%;
     height: 100%;
     padding: 100px 0;
@@ -889,7 +891,7 @@ End Portfolio
     width: 70px;
     height: 55px;
     text-align: center;
-    border: 1px solid #fc466b;
+    border: 1px solid #0a1964;
     position: relative;
 }
 
@@ -930,13 +932,13 @@ End Portfolio
 .features .overlay-features .feature .icon-feature i {
     font-size: 35px;
     text-align: center;
-    color: #fc466b;
+    color: #0a1964;
     line-height: 55px;
 }
 
 .features .overlay-features .feature .info-feature h3 {
     margin-top: 12px;
-    color: #fc466b;
+    color: #0a1964;
     font-size: 25px;
     letter-spacing: 1px;
     display: inline-block;
@@ -952,7 +954,7 @@ End Portfolio
     margin: auto;
     height: 1px;
     width: 0;
-    background: linear-gradient(to right, #fc466b, #3f5efb);
+    background: linear-gradient(to right, #0a1964, #008064);
     
     -webkit-transition: all .4s ease;
     -moz-transition: all .4s ease;
@@ -1019,7 +1021,7 @@ End Features
     left: 0;
     width: 100%;
     height: 4px;
-    background: linear-gradient(to right, #fc466b, #3f5efb); 
+    background: linear-gradient(to right, #0a1964, #008064);
     border-radius: 4px 4px 0 0;
     
     -webkit-transition: all .4s ease-in-out;
@@ -1036,7 +1038,7 @@ End Features
     left: 0;
     width: 0;
     height: 4px;
-    background: linear-gradient(to right, #fc466b, #3f5efb); 
+    background: linear-gradient(to right, #0a1964, #008064); 
     border-radius: 0 0 4px 4px;
     
     -webkit-transition: all .4s ease-in-out;
@@ -1063,13 +1065,13 @@ End Features
     font-weight: 400;
     position: relative;
     display: inline-block;
-    color: #fc466b;
+    color: #0a1964;
     z-index: 2;
     padding: 10px 0;
 }
 
 .pricing .price .offer {
-    background: linear-gradient(to right, #fc466b, #3f5efb); 
+    background: linear-gradient(to right, #0a1964, #008064);
     color: #fff;
 }
 
@@ -1109,11 +1111,11 @@ End Features
 }
 
 .pricing .price a {
-    border: 1px dashed #fc466b;
+    border: 1px dashed #0a1964;
     padding: 10px 30px;
     margin-top: 40px;
     display: inline-block;
-    color: #fc466b;
+    color: #0a1964;
     letter-spacing: 2px;
     font-size: 16px;
     position: relative;
@@ -1131,7 +1133,7 @@ End Features
     top: 0;
     width: 0;
     height: 100%;
-    background: linear-gradient(to right, #fc466b, #3f5efb);
+    background: linear-gradient(to right, #0a1964, #008064);
     z-index: -1;
     
     -webkit-transition: all .4s ease;
@@ -1165,7 +1167,7 @@ End Pricing
 }
 
 .team .overlay-team {
-    background: linear-gradient(to right, rgba(252, 70, 107, .7), rgba(63, 94, 251, .7));
+    background: linear-gradient(to right, rgba(10, 25, 100, 0.7), rgba(0, 128, 100, 0.7));
     width: 100%;
     height: 100%;
     padding: 100px 0;
@@ -1188,7 +1190,7 @@ End Pricing
     letter-spacing: 1px;
     font-size: 25px;
     padding-top: 10px;
-    color: #fc466b;
+    color: #0a1964;
 }
 
 .team .personal .info-personal p {
@@ -1210,7 +1212,7 @@ End Pricing
     margin: auto;
     width: 30%;
     height: 1px;
-    background: linear-gradient(to right, #fc466b, #3f5efb);
+    background: linear-gradient(to right, #0a1964, #008064);
     
     -webkit-transition: all .4s ease;
     -moz-transition: all .4s ease;
@@ -1254,12 +1256,12 @@ End Pricing
     text-align: center;
     font-size: 20px;
     margin-bottom: 20px;
-    border: 1px solid #fc466b;
+    border: 1px solid #0a1964;
     position: relative;
 }
 
 .team .personal .social-personal .icon-social:hover {
-    background: linear-gradient(to bottom, #fc466b, #3f5efb);
+    background: linear-gradient(to bottom, #0a1964, #008064);
 }
 
 .team .personal .social-personal .icon-social:before {
@@ -1298,7 +1300,7 @@ End Pricing
 
 .team .personal .social-personal .icon-social i {
     line-height: 50px;
-    color: #fc466b;
+    color: #0a1964;
 }
 
 .team .personal .social-personal .icon-social:hover i {
@@ -1346,7 +1348,7 @@ margin-top: 20px;
     left: -100%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to right, rgba(252, 70, 107, .7), rgba(63, 94, 251, .7));
+    background: linear-gradient(to right, rgba(10, 25, 100, 0.7), rgba(0, 128, 100, 0.7));
 }
 
 .blog .article:hover .image-article .overlay-article {
@@ -1401,7 +1403,7 @@ margin-top: 20px;
 }
 
 .blog .article .info-article h4 {
-    color: #fc466b;
+    color: #0a1964;
     font-size: 15px;
     padding-top: 20px;
     font-weight: bold;
@@ -1448,7 +1450,7 @@ margin-top: 20px;
 
 .blog .article .info-article .heart-and-link a {
     float: right;
-    background: linear-gradient(to right, #fc466b, #3f5efb);
+    background: linear-gradient(to right, #0a1964, #008064);
     color: #fff;
     padding: 8px 20px;
     border-radius: 22px;
@@ -1501,7 +1503,7 @@ End Blog
 }
 
 .testimonials .overlay-testimonials {
-    background: linear-gradient(to right, rgba(252, 70, 107, .7), rgba(63, 94, 251, .7));
+    background: linear-gradient(to right, rgba(10, 25, 100, 0.7), rgba(0, 128, 100, 0.7));
     width: 100%;
     height: 100%;
     padding: 100px 0;
@@ -1579,7 +1581,7 @@ End Testimonials
 }
 
 .form-control:focus {
-    border-color: #fc466b;
+    border-color: #0a1964;
     outline: 0;
 }
 
@@ -1589,7 +1591,7 @@ End Testimonials
 }
 
 .contact .form-contact input[type="submit"] {
-    background: linear-gradient(to right, #fc466b, #3f5efb);
+    background: linear-gradient(to right, #0a1964, #008064);
     color: #fff;
     border: 0;
     letter-spacing: 2px;
@@ -1615,7 +1617,7 @@ End Testimonials
     height: 60px;
     background-color: #fff;
     text-align: center;
-    border: 1px solid #fc466b;
+    border: 1px solid #0a1964;
     position: relative;
     
      -webkit-transition: all .4s ease;
@@ -1626,7 +1628,7 @@ End Testimonials
 }
 
 .contact .info-contact:hover .icon-contact {
-    background: linear-gradient(to bottom, #fc466b, #3f5efb);
+    background: linear-gradient(to bottom, #0a1964, #008064);
 }
 
 .contact .info-contact .icon-contact:before {
@@ -1665,7 +1667,7 @@ End Testimonials
 
 .contact .info-contact .icon-contact i {
     line-height: 60px;
-    color: #fc466b;
+    color: #0a1964;
     font-size: 30px;
 }
 
@@ -1721,7 +1723,7 @@ End Testimonials
 }
 
 .contact .subscribe .overlay-subscribe form input[type="submit"] {
-    background: linear-gradient(to right, #fc466b, #3f5efb);
+    background: linear-gradient(to right, #0a1964, #008064);
     color: #fff;
     border: 0;
     height: 50px;
@@ -1773,7 +1775,7 @@ End Testimonials
 }
 
 .contact .footer .social-media i:hover {
-    background: linear-gradient(to right, #fc466b, #3f5efb);
+    background: linear-gradient(to right, #0a1964, #008064);
     color: #fff;
 }
 
@@ -1807,7 +1809,7 @@ End Testimonials
 }
 
 .contact .footer p a {
-    color: #fc466b;
+    color: #0a1964;
 }
 
 .contact .footer p a:hover {
