@@ -752,6 +752,8 @@ End Services
 .portfolio .image-portfolio img {
     width: 100%;
     height: 100%;
+    object-fit: cover; /* Ensures the image covers the area while maintaining aspect ratio */
+    object-position: center; /* Keeps the image centered if cropped */
 }
 
 .mfp-bg {
@@ -768,7 +770,7 @@ End Services
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(to right, rgba(10, 25, 100, 0.7), rgba(0, 128, 100, 0.7));
+    background: linear-gradient(to right, rgba(10, 25, 100, 0.6), rgba(0, 128, 100, 0.6));
     
     -webkit-transform: scale(0);
     -moz-transform: scale(0);
