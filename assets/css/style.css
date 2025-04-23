@@ -13,8 +13,8 @@ URL:			https://themeforest.net/user/hozaifa_gawesh/
     2.Parallax
     3.About
     4.Services
-    5.portfolio
-    6.features
+    5.Portfolio
+    6.Features
     7.Pricing
     8.Team 
     9.Testimonials
@@ -883,59 +883,6 @@ End Portfolio
     border-radius: 2px;
 }
 
-.features .overlay-features .feature.feature-right .icon-feature {
-    float: right;
-}
-
-.features .overlay-features .feature .icon-feature {
-    width: 70px;
-    height: 55px;
-    text-align: center;
-    border: 1px solid #0a1964;
-    position: relative;
-}
-
-.features .overlay-features .feature .icon-feature:before {
-    content: '';
-    position: absolute;
-    top: -1px;
-    left: 10px;
-    width: 50px;
-    height: 1px;
-    background-color: #fff;
-}
-
-.features .overlay-features .feature .icon-feature:after {
-    content: '';
-    position: absolute;
-    bottom: -1px;
-    right: 10px;
-    width: 50px;
-    height: 1px;
-    background-color: #fff;
-}
-
-.features .overlay-features .feature .icon-feature:before,
-.features .overlay-features .feature .icon-feature:after {
-    -webkit-transition: all .4s ease;
-    -moz-transition: all .4s ease;
-    -o-transition: all .4s ease;
-    -ms-transition: all .4s ease;
-    transition: all .4s ease;
-}
-
-.features .overlay-features .feature:hover .icon-feature:before,
-.features .overlay-features .feature:hover .icon-feature:after {
-    width: 0;
-}
-
-.features .overlay-features .feature .icon-feature i {
-    font-size: 35px;
-    text-align: center;
-    color: #0a1964;
-    line-height: 55px;
-}
-
 .features .overlay-features .feature .info-feature h3 {
     margin-top: 12px;
     color: #0a1964;
@@ -986,6 +933,45 @@ End Portfolio
     -ms-transform: scale(1.05);
     transform: scale(1.05);
 }
+
+.feature-item img {
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover; /* crop nicely */
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+  }
+
+  .feature-item page {
+    max-height: 300px; /* adjust to fit your taste */
+  }
+  
+  .feature-item figcaption {
+    padding: 1rem;
+    background-color: #f7f7f7;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #222;
+    border-top: 1px solid #e0e0e0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }  
+  
+  .feature-item:hover img {
+    transform: scale(1.03);
+  }
+  
+  .gap-4 > * + * {
+    margin-top: 2rem;
+  }
+  
+/***********************************
+End Features
+***********************************/
+
+
+
 
 /***********************************
 End Features
