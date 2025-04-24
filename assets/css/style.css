@@ -842,6 +842,45 @@ End Services
     top: -80px;
 }
 
+/* Custom wrapper to layer the image and overlay together */
+.mfp-img-container {
+    position: relative;
+}
+
+/* Ensure the image stays in place */
+.mfp-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    position: relative; /* ADD this */
+    z-index: 1; /* ENSURE it's under the overlay */
+}
+
+/* Overlay on top of image */
+.custom-mfp-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to top, rgba(10, 25, 100, 0.7), rgba(0, 128, 100, 0.5)); /* mimic existing hover style */
+    color: white;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    z-index: 2; /* Ensure it's above the image */
+    pointer-events: none;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    height: 100%; /* Make overlay cover the full image */
+}
+
+
+
+
 /***********************************
 End Portfolio
 ***********************************/
@@ -1219,6 +1258,24 @@ End Blog
 .contact .footer p a:hover {
     color: #fff;
 }
+
+.social-media a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-media img {
+    width: 32px;     /* Set the desired uniform width */
+    height: 32px;    /* Set the desired uniform height */
+    object-fit: contain; /* Ensures the SVG scales proportionally */
+    vertical-align: middle;
+    transition: transform 0.3s ease;
+}
+
+.social-media a:hover img {
+    transform: scale(1.1);
+}
+
 
 #scroll-top {
     position: fixed;

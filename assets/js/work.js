@@ -4,43 +4,53 @@ $(document).ready(function () {
     
     'use strict';
     
-    
-    
     /*=====================================
     Start Header
     =====================================*/ 
     
     $(".header .navbar-nav>li").click(function () {
-       
         $(".navbar-nav>li").removeClass('active');
-        
         $(this).addClass('active').siblings();
-        
     });
     
     /*=====================================
     End Header
     =====================================*/
     
-    
-    
     /*=====================================
     Start Portfolio
     =====================================*/
-    
+
     $('.parent-container').magnificPopup({
-        delegate: 'a', // child items selector, by clicking on it popup will open
+        delegate: 'a.popup-with-caption',
         type: 'image',
-        gallery: {enabled: true}
-      // other options
-    });
+        gallery: { enabled: true },
+        image: {
+            markup: `
+                <div class="mfp-figure custom-figure">
+                    <div class="mfp-img-container">
+                        <img class="mfp-img" />
+                        <div class="custom-mfp-overlay"></div>
+                    </div>
+                </div>`,
+            verticalFit: true,
+            titleSrc: function(item) {
+                return item.el.attr('data-caption');
+            }
+        },
+        callbacks: {
+            markupParse: function(template, values, item) {
+                template.find('.custom-mfp-overlay').html(item.el.attr('data-caption'));
+            }
+        }
+    });    
+    
+    
+    
     
     /*=====================================
     End Portfolio
     =====================================*/
-    
-    
-    
     
     /*=====================================
     Smooth Scroll
@@ -54,8 +64,6 @@ $(document).ready(function () {
     End Smooth Scroll
     =====================================*/
     
-    
-    
     /*=====================================
     Scroll top 
     =====================================*/
@@ -63,20 +71,14 @@ $(document).ready(function () {
 	var scrollTop = $("#scroll-top");
 
 	$(window).scroll(function () {
-
 		if ($(this).scrollTop() >= 300) {
-
 			scrollTop.fadeIn(500);
-
 		} else {
 			scrollTop.fadeOut(500);
 		}
 	});
 
-	// Click on Button To Scroll Top
-
 	scrollTop.on('click', function () {
-
 		$("html,body").animate({
 			scrollTop: 0
 		}, 900);
@@ -85,9 +87,14 @@ $(document).ready(function () {
     /*=====================================
     End Scroll top 
     =====================================*/
+
+    /*=====================================
+    Toggle Info in Portfolio Items
+    =====================================*/
+    $(".image-portfolio").on("click", function (e) {
+        // Prevent default behavior if it's a link
+        if ($(e.target).is('a, img')) return;
+        $(this).toggleClass("expanded");
+    });
     
-    
-      
 });
-
-
