@@ -33,3 +33,18 @@ https://unsplash.com/photos/a-flat-screen-tv-sitting-on-top-of-a-wooden-stand-eM
 
 Photo by <a href="https://unsplash.com/@denisseleon?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Denisse Leon</a> on <a href="https://unsplash.com/photos/gray-and-black-backpack-on-top-of-cliff-J7CjWufjmg4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
       
+
+
+      Logo by Indeed: https://cdn.brandfetch.io/idFE_fwV-w/theme/dark/symbol.svg?c=1bxid64Mup7aczewSAYMX&t=1671038550746
+
+
+                        <a href="https://www.youtube.com/@DarningNeedleKnits" target="_blank" rel="noopener">
+                            <img src="assets/image/icon/youtube.svg" alt="YouTube">
+                        </a>
+                    
+                        <a href="https://app.thestorygraph.com/profile/juleslovessff" target="_blank" rel="noopener">
+                            <img src="assets/image/icon/storygraph.svg" alt="StoryGraph">
+                        </a>
+                        <a href="https://soundcloud.com/julia-n-kent" target="_blank" rel="noopener">
+                            <img src="assets/image/icon/soundcloud.svg" alt="SoundCloud">
+                        </a>

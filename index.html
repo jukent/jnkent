@@ -74,8 +74,7 @@
                                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                     <ul class="nav navbar-nav">
                                         <li><a data-scroll href="#about">ABOUT</a></li>
-                                        <li><a data-scroll href="#features">Web Portfolio</a></li>
-                                        <li><a data-scroll href="#portfolio">INTERESTS</a></li>
+                                        <li><a data-scroll href="#features">Portfolio</a></li>
                                     </ul>
                                 </div><!-- /.navbar-collapse -->
                            </nav>
@@ -122,7 +121,7 @@
 
                             <div>
                                 <h1>I Love <span>Web Design</span></h1>
-                                <p> creativity meets compsci </p>
+                                <p> Creativity meets Compsci </p>
                             </div>
 
                             <div>
@@ -132,7 +131,7 @@
 
                             <div>
                                 <h1>I Love <span>Music</span></h1>
-                                <p> Classical and jazz flute </p>
+                                <p> Classical, jazz, and jam flute </p>
                             </div>
                         </div><!-- /.words -->
                         
@@ -154,21 +153,38 @@
             <!-- Start About -->
             <section id="about" class="about">
                 <div class="container">
-                    <div class="heading-section">
-                        <span>ABOUT Julia</span>
-                        <h2>ABOUT ME</h2>
-                        <div class="border-heading">
-                            <i class="fa fa-bicycle" aria-hidden="true"></i>
-                        </div><!-- /.border-heading -->
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
-                        </p>
-                    </div><!-- /.heading-section -->
+                    <div class="heading-section" style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap;">
+                        <div style="flex: 1; min-width: 250px;">
+                            <span>ABOUT Julia</span>
+                            <h2>ABOUT ME</h2>
+                            <div class="border-heading">
+                                <i class="fa fa-bicycle" aria-hidden="true"></i>
+                            </div><!-- /.border-heading -->
+                            <p>
+                                My name is Julia Kent. I am a scientific software engineer at NSF NCAR, combining my backgrounds in optical physics, atmospheric and oceanic sciences, and software development for open source solutions supporting the geoscientific community.<br><br>
                     
+                                I am also a classically trained flute player, avid fantasy reader, triathlete, backpacker, and knitter - with my own brand 
+                                <a href="https://darningneedleknits.com">Darning Needle Knits</a>.<br><br>
+                    
+                                This website connects all of my multi-faceted projects, hobby or professional.
+                            </p>
+                        </div>
+                    
+                        <div style="flex: 0 0 250px;">
+                            <img src="assets/image/self.png" class="img-fluid" alt="Julia N Kent" style="max-width: 100%; height: auto;">
+                        </div>
 
-                </div><!-- /.container -->
+                    </div>
+                    
+                    <div class="buttons-intro" style="margin-top: 20px; display: flex; gap: 15px; flex-wrap: wrap;">
+                        <a class="btn primary" style="background-color:#0a1964" href="https://github.com/jukent/">GitHub</a>
+                        <a class="btn primary" style="background-color:#054d64" href="https://orcid.org/0000-0002-5611-8986">ORCiD</a>
+                        <a class="btn primary" style="background-color:#008064" href="https://profile.indeed.com/p/juliak-yty6ycw">CV</a>
+                    </div>
+                    
+                </div>
             </section>
-            <!-- Start About -->
+            <!-- End About -->
 
 
               
@@ -183,7 +199,7 @@
                         <i class="fa fa-bicycle" aria-hidden="true"></i>
                     </div><!-- /.border-heading -->
                     <p>
-                        Here is a collection of some websites that I helped build, either for personal use or as part of a team at work; blending function, storytelling, and clean design.
+                        Here is a collection of some websites that I helped build, either for personal use or as part of a team at work; blending function, storytelling, and clean responsive design.
                     </p>
                     </div>
             
@@ -191,18 +207,22 @@
   
                         <!-- Left column (2 items) -->
                         <div class="col-md-4 d-flex flex-column gap-4">
-                          <figure class="feature-item page">
-                            <img src="assets/image/websites/weddingjam.png" class="img-fluid" alt="Wedding Jam website preview">
-                            <figcaption>Wedding Jam</figcaption>
-                          </figure>
-                          <figure class="feature-item page">
-                            <img src="assets/image/websites/geocat.png" class="img-fluid" alt="GeoCAT website preview">
-                            <figcaption>GeoCAT</figcaption>
-                          </figure>
+                            <a href="https://weddingjam.space" target="_blank">
+                                <figure class="feature-item page" style="margin-bottom:1.5rem;">
+                                  <img src="assets/image/websites/weddingjam.png" class="img-fluid" alt="Wedding Jam website preview">
+                                  <figcaption>Wedding Jam</figcaption>
+                                </figure>
+                              </a>
+                              <a href="https://geocat.ucar.edu" target="_blank">
+                                <figure class="feature-item page">
+                                  <img src="assets/image/websites/geocat.png" class="img-fluid" alt="GeoCAT website preview">
+                                  <figcaption>GeoCAT</figcaption>
+                                </figure>
+                              </a>
                         </div>
                       
                         <!-- Center iPad image -->
-                        <div class="col-md-4 my-4">
+                        <div class="col-md-4 my-4" style="margin-top:.75rem;">
                           <div class="feature-item">
                             <img src="assets/image/ipad.png" class="img-fluid" alt="Current website iPad view">
                           </div>
@@ -210,218 +230,26 @@
                       
                         <!-- Right column (3 items) -->
                         <div class="col-md-4 d-flex flex-column gap-4">
-                          <figure class="feature-item page">
-                            <img src="assets/image/websites/darningneedleknits.png" class="img-fluid" alt="Darning Needle Knits website preview">
-                            <figcaption>Darning Needle Knits</figcaption>
-                          </figure>
-                          <figure class="feature-item page">
-                            <img src="assets/image/websites/projectpythia.png" class="img-fluid" alt="Project Pythia site preview">
-                            <figcaption>Project Pythia</figcaption>
-                          </figure>
+                            <a href="https://darningneedleknits.com" target="_blank">
+                                <figure class="feature-item page" style="margin-bottom:1.5rem;">
+                                  <img src="assets/image/websites/darningneedleknits.png" class="img-fluid" alt="Darning Needle Knits website preview">
+                                  <figcaption>Darning Needle Knits</figcaption>
+                                </figure>
+                              </a>
+                              <a href="https://projectpythia.org" target="_blank">
+                                <figure class="feature-item page">
+                                  <img src="assets/image/websites/projectpythia.png" class="img-fluid" alt="Project Pythia site preview">
+                                  <figcaption>Project Pythia</figcaption>
+                                </figure>
+                              </a>
                         </div>
                       
                       </div>  
                     </div><!-- /.overlay-features -->
                 </section>
                 <!-- End Features -->                    
-          
-            
-            
-            
-<!-- Start Portfolio -->
-<section id="portfolio" class="portfolio parent-container">
-    <div class="container">
-        <div class="heading-section">
-            <span>INTERESTS</span>
-            <h2>INTERESTS</h2>
-            <div class="border-heading">
-                <i class="fa fa-bicycle" aria-hidden="true"></i>
-            </div><!-- /.border-heading -->
-            <p>
-                Explore some of my multi-faceted passions, from coding and science to creative endeavors like knitting and photography.
-            </p>
-        </div><!-- /.heading-section -->
-        
-        <div class="photos-protfolio">
-            <div class="row">
-                <div class="top20">
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="image-portfolio">
-                            <a href="assets/image/interests/clouds.jpg"
-                            class="popup-with-caption"
-                            data-caption='
-                                <div class="custom-mfp-overlay">
-                                    <p>I earned my M.S. in Atmospheric and Oceanic Science from CU Boulder.<br>
-                                        My thesis was on hyperspectral remote sensing for microphysical cloud retrievals.<br>
-                                        I loved applying my optics education to understanding the environment.
-                                    </p>
-                                </div>'>
-                             <img src="assets/image/interests/big/clouds.jpg" alt="Atmospheric Science">
-                             <div class="overlay-image-portfolio">
-                                 <div class="info-overlay-portfolio">
-                                     <h4>Atmospheric Science</h4>
-                                     <div class="border-overlay"></div>
-                                     <p>M.S.</p>
-                                 </div>
-                             </div>
-                         </a>
-                         
-                        </div>
-                    </div>
-                    
-                    
-                    
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="image-portfolio">
-                            <a href="assets/image/interests/flute.jpg"
-                            class="popup-with-caption"
-                            data-caption='
-                                <div class="custom-mfp-overlay">
-                                    <p>I am very passionate about music. I learned flute when I was 7 and bassoon at age 13.<br>
-                                        I played both through college in orchestras and jazz band.<br>
-                                        I continue to jam on the flute with musical groups whenever the opportunity arises.
-                                    </p>
-                                </div>'>
-                                <img src="assets/image/interests/big/flute.jpg" alt="Flute">
-                                <div class="overlay-image-portfolio">
-                                    <div class="info-overlay-portfolio">
-                                        <h4>Flute</h4>
-                                        <div class="border-overlay"></div>
-                                        <p>Music</p>
-                                    </div>
-                                </div><!-- /.overlay-image-portfolio -->
-                            </a>
-                        </div><!-- /.image-portfolio -->
-                    </div><!-- /.col-md-3 -->
-                    
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="image-portfolio">
-                            <a href="assets/image/interests/knitting.jpg"
-                            class="popup-with-caption"
-                            data-caption='
-                                <div class="custom-mfp-overlay">
-                                    <p>I have been knitting since I was very young and find it very meditative.<br>
-                                        I specialize in unique construction, lace-work, and micro-knitting.<br>
-                                        Learn more about my knitting brand, Darning Needle Knits.
-                                    </p>
-                                </div>'>
-                                <img src="assets/image/interests/big/knitting.jpg" alt="Knitting Projects">
-                                <div class="overlay-image-portfolio">
-                                    <div class="info-overlay-portfolio">
-                                        <h4>Knitting Projects</h4>
-                                        <div class="border-overlay"></div>
-                                        <p>Customs and Craft Fairs</p>
-                                    </div>
-                                </div><!-- /.overlay-image-portfolio -->
-                            </a>
-                        </div><!-- /.image-portfolio -->
-                    </div><!-- /.col-md-3 -->
-                    
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="image-portfolio">
-                            <a href="assets/image/interests/prism.jpg"
-                            class="popup-with-caption"
-                            data-caption='
-                                <div class="custom-mfp-overlay">
-                                    <p>I have a B.S. in Optics from the Hajim School of Engineering at the University of Rochester.<br>
-                                        I loved the math and science of each optics problem, from problem sets, lens design, to my research at the Laboratory for Laser Energetics.
-                                    </p>
-                                </div>'>
-                                <img src="assets/image/interests/big/prism.jpg" alt="Optics">
-                                <div class="overlay-image-portfolio">
-                                    <div class="info-overlay-portfolio">
-                                        <h4>Optics</h4>
-                                        <div class="border-overlay"></div>
-                                        <p>B.S.</p>
-                                    </div>
-                                </div><!-- /.overlay-image-portfolio -->
-                            </a>
-                        </div><!-- /.image-portfolio -->
-                    </div><!-- /.col-md-3 -->
-                </div><!-- /.top20 -->
-                
-                <div class="clear"></div><!-- /.clear -->
-                
-                <div class="center-div">
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="image-portfolio">
-                            <a href="assets/image/interests/coding.jpg"
-                            class="popup-with-caption"
-                            data-caption='
-                                <div class="custom-mfp-overlay">
-                                    <p>During graduate school I found that software hurdles were the primary road blocks to science, and along the way I fell in love with coding.<br>
-                                        A the NSF National Center for Atmospheric Research, I work as a full stack Python developer<br> finding solutions to Earth science big-data problems on the cloud, HPC, and on local machines.<br>
-                                        And along the way of documenting my software products, I fell in love with web design.
-                                    </p>
-                                </div>'>
-                                <img src="assets/image/interests/big/coding.jpg" alt="Software Engineering">
-                                <div class="overlay-image-portfolio">
-                                    <div class="info-overlay-portfolio">
-                                        <h4>Software Engineering</h4>
-                                        <div class="border-overlay"></div>
-                                        <p>Full Stack Development</p>
-                                    </div>
-                                </div><!-- /.overlay-image-portfolio -->
-                            </a>
-                        </div><!-- /.image-portfolio -->
-                    </div><!-- /.col-md-3 -->
 
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="image-portfolio">
-                            <a href="assets/image/interests/reading.jpg"                            
-                            class="popup-with-caption"
-                            data-caption='
-                                <div class="custom-mfp-overlay">
-                                    <p>I have a minor in Creative Writing from the University of Rochester and specialized in poetry.<br>
-                                        I still have aspirations of publishing a book of poems one day,<br>
-                                        but spend most of my at-home free time reading fantasy novels.
-                                    </p>
-                                </div>'>
-                                <img src="assets/image/interests/big/reading.jpg" alt="Reading">
-                                <div class="overlay-image-portfolio">
-                                    <div class="info-overlay-portfolio">
-                                        <h4>Reading</h4>
-                                        <div class="border-overlay"></div>
-                                        <p>Poetry Minor, Fantasy Nerd</p>
-                                    </div>
-                                </div><!-- /.overlay-image-portfolio -->
-                            </a>
-                        </div><!-- /.image-portfolio -->
-                    </div><!-- /.col-md-3 -->
-                    
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="image-portfolio">
-                            <a href="assets/image/interests/backpacking.jpg"
-                            class="popup-with-caption"
-                            data-caption='
-                                <div class="custom-mfp-overlay">
-                                    <p>It is important to get out and enjoy our national and state parks.<br>
-                                        My favorite activities are hiking, camping, backpacking, canoeing, kayaking, and swimming/biking/running triathlons.
-                                    </p>
-                                </div>'>
-                                <img src="assets/image/interests/big/backpacking.jpg" alt="Wilderness">
-                                <div class="overlay-image-portfolio">
-                                    <div class="info-overlay-portfolio">
-                                        <h4>Wilderness</h4>
-                                        <div class="border-overlay"></div>
-                                        <p>Appreciating Nature</p>
-                                    </div>
-                                </div><!-- /.overlay-image-portfolio -->
-                            </a>
-                        </div><!-- /.image-portfolio -->
-                    </div><!-- /.col-md-3 -->
-                    
-                </div><!-- /.center-div -->
-                
-                <div class="clear"></div><!-- /.clear -->
-            </div><!-- /.row -->
-        </div><!-- /.photos-portfolio -->
-    </div><!-- /.container -->
-</section>
-<!-- End Portfolio -->
 
-                          
-            
             
             <!-- Start Footer -->
             <section id="contact" class="contact">
@@ -450,16 +278,7 @@
                         <a href="https://www.ravelry.com/people/DarningNeedleKnit" target="_blank" rel="noopener">
                             <img src="assets/image/icon/ravelry.svg" alt="Ravelry">
                         </a>
-                        <a href="https://www.youtube.com/@DarningNeedleKnits" target="_blank" rel="noopener">
-                            <img src="assets/image/icon/youtube.svg" alt="YouTube">
-                        </a>
-                    
-                        <a href="https://app.thestorygraph.com/profile/juleslovessff" target="_blank" rel="noopener">
-                            <img src="assets/image/icon/storygraph.svg" alt="StoryGraph">
-                        </a>
-                        <a href="https://soundcloud.com/julia-n-kent" target="_blank" rel="noopener">
-                            <img src="assets/image/icon/soundcloud.svg" alt="SoundCloud">
-                        </a>
+
                     
                     </div><!-- /.social-media -->
                     

@@ -18,41 +18,6 @@ $(document).ready(function () {
     =====================================*/
     
     /*=====================================
-    Start Portfolio
-    =====================================*/
-
-    $('.parent-container').magnificPopup({
-        delegate: 'a.popup-with-caption',
-        type: 'image',
-        gallery: { enabled: true },
-        image: {
-            markup: `
-                <div class="mfp-figure custom-figure">
-                    <div class="mfp-img-container">
-                        <img class="mfp-img" />
-                        <div class="custom-mfp-overlay"></div>
-                    </div>
-                </div>`,
-            verticalFit: true,
-            titleSrc: function(item) {
-                return item.el.attr('data-caption');
-            }
-        },
-        callbacks: {
-            markupParse: function(template, values, item) {
-                template.find('.custom-mfp-overlay').html(item.el.attr('data-caption'));
-            }
-        }
-    });    
-    
-    
-    
-    
-    /*=====================================
-    End Portfolio
-    =====================================*/
-    
-    /*=====================================
     Smooth Scroll
     =====================================*/
 	smoothScroll.init({
